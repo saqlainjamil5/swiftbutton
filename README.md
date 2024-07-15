@@ -29,7 +29,8 @@ https://github.com/user-attachments/assets/d02e9c42-7162-4ef2-b9e6-5c7c680fa4da
 A button with a loading indicator (ProgressView) that changes its background color and scales when pressed.
 
 ![LoadingButtonStyle Button]
-https://github.com/user-attachments/assets/ae9a1c97-482a-47f5-84e5-423c10cbf8af
+
+https://github.com/user-attachments/assets/d2c58be1-7895-4b51-a336-b8b54f87db8b
 
 ## Installation
 
