@@ -19,14 +19,14 @@ https://github.com/user-attachments/assets/62cb2713-dda6-4171-93ea-3ea2e3f90db2
 
 
 ### 2. **PressableButtonStyle**
-A button that changes its background color and scales when pressed, providing a pressed effect.
+Providing a pressed effect.
 
 ![PressableButtonStyle Button]
 
 https://github.com/user-attachments/assets/d02e9c42-7162-4ef2-b9e6-5c7c680fa4da
 
 ### 3. **LoadingButtonStyle**
-A button with a loading indicator (ProgressView) that changes its background color and scales when pressed.
+A button with a loading indicator (ProgressView).
 
 ![LoadingButtonStyle Button]
 
