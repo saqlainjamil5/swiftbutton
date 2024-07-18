@@ -11,6 +11,8 @@
 		E8CFC9342C4527E000DBF279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFC9332C4527E000DBF279 /* ContentView.swift */; };
 		E8CFC9362C4527E200DBF279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CFC9352C4527E200DBF279 /* Assets.xcassets */; };
 		E8CFC9392C4527E200DBF279 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CFC9382C4527E200DBF279 /* Preview Assets.xcassets */; };
+		E8CFC9422C4535ED00DBF279 /* pressable button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFC9412C4535ED00DBF279 /* pressable button.swift */; };
+		E8CFC9462C457E2800DBF279 /* loodingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CFC9452C457E2800DBF279 /* loodingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E8CFC9332C4527E000DBF279 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8CFC9352C4527E200DBF279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8CFC9382C4527E200DBF279 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8CFC9412C4535ED00DBF279 /* pressable button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "pressable button.swift"; sourceTree = "<group>"; };
+		E8CFC9452C457E2800DBF279 /* loodingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loodingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				E8CFC9312C4527E000DBF279 /* swiftbuttonApp.swift */,
-				E8CFC9332C4527E000DBF279 /* ContentView.swift */,
+				E8CFC93F2C45352000DBF279 /* flat Button */,
+				E8CFC9432C4535F400DBF279 /* pressable button */,
+				E8CFC9442C457E0D00DBF279 /* looding button */,
 				E8CFC9352C4527E200DBF279 /* Assets.xcassets */,
 				E8CFC9372C4527E200DBF279 /* Preview Content */,
 			);
@@ -65,6 +71,30 @@
 				E8CFC9382C4527E200DBF279 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E8CFC93F2C45352000DBF279 /* flat Button */ = {
+			isa = PBXGroup;
+			children = (
+				E8CFC9332C4527E000DBF279 /* ContentView.swift */,
+			);
+			path = "flat Button";
+			sourceTree = "<group>";
+		};
+		E8CFC9432C4535F400DBF279 /* pressable button */ = {
+			isa = PBXGroup;
+			children = (
+				E8CFC9412C4535ED00DBF279 /* pressable button.swift */,
+			);
+			path = "pressable button";
+			sourceTree = "<group>";
+		};
+		E8CFC9442C457E0D00DBF279 /* looding button */ = {
+			isa = PBXGroup;
+			children = (
+				E8CFC9452C457E2800DBF279 /* loodingButton.swift */,
+			);
+			path = "looding button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8CFC9422C4535ED00DBF279 /* pressable button.swift in Sources */,
 				E8CFC9342C4527E000DBF279 /* ContentView.swift in Sources */,
+				E8CFC9462C457E2800DBF279 /* loodingButton.swift in Sources */,
 				E8CFC9322C4527E000DBF279 /* swiftbuttonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftbutton/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +333,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftbutton/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
